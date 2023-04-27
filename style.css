@@ -207,3 +207,65 @@ footer nav a {
 footer nav a:hover {
     background-color: whitesmoke;
 }
+
+@media only screen and (max-width:1050px) {
+    main .content p {
+        font-size: x-large;
+    }
+
+    main .content h1 {
+        font-size: xx-large;
+    }
+
+    main .content2 p {
+        font-size: x-large;
+    }
+
+    main .content2 h1 {
+        font-size: xx-large;
+    }
+
+    main .content3 p {
+        font-size: x-large;
+    }
+
+    main .content3 h1 {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width:550px) {
+    main .content p {
+        font-size:large;
+    }
+
+    main .content h1 {
+        font-size: x-large;
+    }
+
+    main .content2 p {
+        font-size:large;
+    }
+
+    main .content2 h1 {
+        font-size: x-large;
+    }
+
+    main .content3 p {
+        font-size:large;
+    }
+
+    main .content3 h1 {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width:450px) {
+    footer nav {
+        flex-direction: column;
+    }
+
+    footer {
+        height: auto;
+    }
+}
