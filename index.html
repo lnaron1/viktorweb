@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Otthon</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
 
-    <header>
-        <div class="upper">
+    <header id="otthon">
+        <div class="upper" data-aos="fade-up">
             <h1>
                 Copywriting
             </h1>
@@ -19,7 +20,7 @@
                 Pintér Viktor
             </h2>
         </div>
-        <div class="lower">
+        <div class="lower" data-aos="fade-up">
             <span class="material-symbols-rounded">
                 expand_more
                 </span>
@@ -28,14 +29,36 @@
     </header>
     <main>
 
-       <p>lorem100</p>
+        <div class="content" id="rolam">
+            <h1 data-aos="fade-up">Rólam</h1>
+            <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus adipisci doloremque dolores non illo reiciendis magnam a laborum molestias assumenda maxime officiis, laudantium voluptatibus suscipit dolore! Laudantium quaerat quidem corporis dignissimos dolore repudiandae, corrupti asperiores numquam deserunt excepturi, repellendus temporibus explicabo? Nihil vel ex animi possimus, nulla tenetur dolorum quae?</p>
+        </div>
+        <div class="spacer"></div>
+        <div class="content2" id="munkam">
+            <h1 data-aos="fade-up">Munkám, Árak</h1>
+            <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam mollitia eius qui nobis rerum repudiandae quis. Ullam repellat modi qui, molestias similique voluptatem suscipit nostrum atque quidem recusandae et commodi debitis cupiditate fugit minus mollitia non. Aliquam non necessitatibus consequuntur est, dolor aperiam totam ducimus voluptas, quasi, porro quam praesentium.</p>
+        </div>
+        <div class="spacer2"></div>
+        <div class="content3" id="elerhetosegek">
+            <h1 data-aos="fade-up">Elérhetőségek</h1>
+            <p data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quasi nobis doloremque necessitatibus dicta? Sit quia sunt, fugiat quasi neque cum magnam minima, exercitationem illo at placeat hic nesciunt explicabo aliquid voluptatibus illum quod dolore doloremque quo, facilis deserunt nihil saepe. Iusto quidem molestias impedit blanditiis esse nam accusamus dicta?</p>
+        </div>
+        <div class="spacer3"></div>
 
     </main>
     <footer>
 
-
+        <nav>
+            <a href="index.html#otthon" class="otthon">Otthon</a>
+            <a href="index.html#rolam" class="rolam">Rólam</a>
+            <a href="index.html#munkam" class="munkam">Munkám</a>
+            <a href="index.html#elerhetosegek" class="elerhetosegek">Elérhetőségek</a>
+        </nav>
 
     </footer>
-    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

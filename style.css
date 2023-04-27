@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -19,10 +23,10 @@ header {
 
 @keyframes rotate {
     0%,100% {
-        background-image: url(goat1.jpg);
+        background-image: url(img/goat1.jpg);
     }
     50% {
-        background-image: url(goat2.jfif);
+        background-image: url(img/goat2.jfif);
     }
 }
 
@@ -62,4 +66,144 @@ header .lower span {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     backdrop-filter: blur(3px);
+}
+
+main .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1a335e;
+}
+
+main .content h1 {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 0px;
+    font-size: 55px;
+}
+
+main .content p {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 40px;
+    margin: 50px;
+}
+
+main .content2 {
+    background-color: #1a335e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .spacer {
+    aspect-ratio: 1000/200;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(layered-waves-haikei\ \(2\).svg);
+}
+
+main .content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: white;
+}
+
+main .content2 h1 {
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    margin: 0px;
+    font-size: 55px;
+}
+
+main .content2 p {
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+    font-size: 40px;
+    margin: 50px;
+}
+
+main .spacer2 {
+    width: 100vw;
+    aspect-ratio: 1000/200;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(layered-waves-haikei\ \(3\).svg);
+}
+
+main .content3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(blob-haikei.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main .content3 h1 {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 0px;
+    font-size: 55px;
+}
+
+main .content3 p {
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 40px;
+    margin: 50px;
+}
+
+main .spacer3 {
+    aspect-ratio: 1000/200;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(layered-waves-haikei\ \(4\).svg);
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100vw;
+}
+
+footer nav a {
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: large;
+}
+
+footer nav a:hover {
+    background-color: whitesmoke;
 }
